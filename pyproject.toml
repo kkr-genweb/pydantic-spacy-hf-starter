@@ -1,0 +1,31 @@
+[project]
+name = "pydantic-spacy-hf-starter"
+version = "0.1.0"
+description = "A starter project combining Pydantic, spaCy, and Hugging Face transformers"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic-ai[examples]>=0.4.0",
+    "spacy[transformers]>=3.8.0",
+    "transformers>=4.30.0,<4.50.0",
+    "torch>=2.0.0",
+    "rich>=13.0.0",
+    "pydantic>=2.8.0",
+    "numpy>=1.19.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "ruff>=0.1.0",
+]
+index-strategy = "unsafe-first-match"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"

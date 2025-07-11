@@ -13,6 +13,19 @@ Transforms raw customer support emails into structured, validated JSON that your
 
 ### 1. Setup Environment
 
+**Using UV (Recommended)**
+```bash
+# Install UV if not already installed
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies and create virtual environment
+uv sync
+
+# Download spaCy model
+uv run python -m spacy download en_core_web_trf
+```
+
+**Using pip (Alternative)**
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -27,6 +40,19 @@ python -m spacy download en_core_web_trf
 
 ### 2. Run the Demo
 
+**Using UV**
+```bash
+# Run the demo (no API keys required)
+uv run python test_demo.py
+
+# Or process a specific email
+uv run python triage.py sample_emails.txt
+
+# Or pipe email text
+echo "I'm having trouble with Widget-X login" | uv run python triage.py
+```
+
+**Using pip**
 ```bash
 # Run the demo (no API keys required)
 python test_demo.py
@@ -65,13 +91,27 @@ echo "I'm having trouble with Widget-X login" | python triage.py
 ├── triage.py          # CLI interface
 ├── test_demo.py       # Demo without API keys
 ├── sample_emails.txt  # Sample data
-└── requirements.txt   # Dependencies
+├── requirements.txt   # Dependencies (legacy)
+└── pyproject.toml     # UV/modern Python dependencies
 ```
 
 ## 🛠️ Usage Examples
 
 ### CLI Usage
 
+**Using UV**
+```bash
+# Process single email
+uv run python triage.py email.txt
+
+# Output as JSON
+uv run python triage.py email.txt --json
+
+# Use different model
+uv run python triage.py email.txt --model gpt-4
+```
+
+**Using pip**
 ```bash
 # Process single email
 python triage.py email.txt
