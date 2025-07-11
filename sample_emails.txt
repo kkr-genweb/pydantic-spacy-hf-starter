@@ -1,0 +1,57 @@
+Subject: URGENT: Widget-X completely broken, customers are complaining!
+
+Hi Support Team,
+
+I'm writing to report a critical issue with Widget-X that's affecting multiple customers. The system has been down for over 2 hours and we're getting angry calls from clients.
+
+Customer complaints include:
+- Login failures
+- Data not syncing
+- Error messages showing "Service Unavailable"
+
+This is completely unacceptable! We need this fixed immediately or we risk losing major accounts like TechCorp and DataSystems Inc.
+
+Please escalate this to your highest priority support team.
+
+Best regards,
+Sarah Johnson
+Account Manager
+Email: sarah.johnson@company.com
+Customer ID: C12345
+
+---
+
+Subject: Question about billing for Premium Plan
+
+Hello,
+
+I have a question about my recent billing statement. I was charged $299 for the Premium Plan, but I thought I was on the Standard Plan at $99/month.
+
+Could you please help clarify this? I'd like to understand what services are included in the Premium Plan and if this charge is correct.
+
+My account details:
+- Customer ID: C67890
+- Email: mike.chen@startup.com
+- Company: StartupCorp
+
+Thanks for your help!
+
+Mike Chen
+
+---
+
+Subject: Feature request and positive feedback
+
+Hi there,
+
+I just wanted to reach out and say how much I love using your Analytics Dashboard! The new reporting features you added last month have been incredibly helpful for our team.
+
+I do have one small feature request - would it be possible to add export functionality for the quarterly reports? It would make our client presentations much easier.
+
+Keep up the great work!
+
+Best,
+Jennifer Williams
+Data Analyst
+jennifer.w@consulting.com
+Customer ID: C54321
